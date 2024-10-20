@@ -19,7 +19,7 @@ services:
     deploy:
       replicas: 3
   dth:
-    image: suryamurali96/dockprorecharge:latest
+    image: suryamurali96/dockprodth:latest
     ports:
       - "84:80"
     deploy:
